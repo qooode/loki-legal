@@ -26,7 +26,9 @@ to an AI model through OpenRouter (openrouter.ai) and the model provider it rout
 process it under their own privacy terms. Every request is sent with OpenRouter's zero data
 retention requirement, so it is only routed to providers that do not store prompts or replies. When a question needs current information, the bot
 sends a short search query about the public subject (never member names or what members said
-about themselves) to a web search model through OpenRouter. Data is not sold and is not used for advertising.
+about themselves) to public web search services, and for weather, exchange rates and reaction
+gifs to wttr.in, frankfurter.dev, Tenor and Giphy. If the server's admins switch the search to
+a search model, the query goes through OpenRouter instead. Data is not sold and is not used for advertising.
 
 Moderation reports are posted to a private channel that the server's moderators choose.
 
